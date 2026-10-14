@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #314d3f;
+    --primary-light: #446554;
+    --primary-dark: #20352a;
+    --accent: #5a7d68;
+    --sand-bg: #faf9f6;
+    --sand-card: #ffffff;
+    --border-subtle: rgba(49, 77, 63, 0.1);
+  }
+
+  body {
+    font-family: 'Cairo', 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--sand-bg);
+    color: #233128;
+  }
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f3f2ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd3cc;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9fae9f;
+}

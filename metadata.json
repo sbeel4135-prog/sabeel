@@ -1,0 +1,10 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix Remix Remix سَبيل",
+  "description": "بوابة طلاب العلم والجامعة الشريعة - منصة أكاديمية تفاعلية شاملة لإدارة المقررات، الاختبارات الإلكترونية، المكتبة الرقمية، والمساعد الدراسي الذكي",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
